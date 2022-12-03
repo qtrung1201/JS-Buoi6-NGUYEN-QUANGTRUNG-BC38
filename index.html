@@ -7,15 +7,54 @@
     <title>JS buổi 6</title>
 </head>
 <body>
-    <div class="container" style="padding:30px 10px;  background-color: burlywood ; width: 300px; padding-bottom: 20px;">
-        <h4 style="background-color:white ; color: rebeccapurple ; text-align: center;font-size: 25px; text-align: center;">Chương trình tính Giai Thừa</h4>
-        <input type="text" name="" id="volume" placeholder="Nhập số cần tính" style="width:230px; margin-left: 25px;"> <br>
-        <br><button onclick="ex5()" style="margin-bottom: 25px; margin-left: 25px; background-color:white; color: rebeccapurple; border-radius: 20px;margin-top: 20px;">Tính</button>
-        <br><div style="background-color: white ; color: rebeccapurple; display: inline; margin-left: 25px;" id="divtinh"></div>  
+    <div class="container" style="padding:30px 10px;  background-color:aqua ; width: 300px; padding-bottom: 20px;">
+        <h2 style="background-color: aqua; color: rebeccapurple;">Ex1: Tìm số nguyên dương nhỏ nhất</h2>
+        <h3 style="background-color: aqua; color: rebeccapurple;">Sao cho: 1 + 2 +.. +n > z</h3>
+        <input type="text" placeholder="Nhập vào số z" id="numberZ" style="width:230px; margin-left: 25px; margin-bottom: 20px"><br>
+        <div id="divresult1" style="background-color: white ; color: rebeccapurple; display: inline-block; margin-left: 25px; text-align: center;"></div><br>
+        <button onclick="ex1()" style="margin-bottom: 25px; margin-left: 25px; background-color:white; color: rebeccapurple; border-radius: 20px;margin-top: 20px;">Tìm</button>
     </div>
 
-  
 
+
+
+    <div class="container" style="padding:30px 10px;  background-color:cadetblue; width: 300px; padding-bottom: 20px;">
+        <h2 style="background-color: cadetblue; color: azure;">Ex2: Tính Tổng Gai Thừa</h2>
+        <h3 style="background-color: cadetblue; color: wheat;">S(n)=x + x^1 + x^2 +..+x^n</h3>
+        <input type="text" placeholder="Nhập số x" id="numberX" style="width:230px; margin-left: 25px; margin-bottom: 20px;">
+        <input type="text" placeholder="Nhập số y" id="numberY" style="width:230px; margin-left: 25px; margin-bottom: 20px">
+        <br><div id="divresult2" style="background-color: white ; color: rebeccapurple; display: inline-block; margin-left: 25px; text-align: center;"></div>
+        <br><button onclick="ex2()" style="margin-bottom: 25px; margin-left: 25px; background-color:white; color: rebeccapurple; border-radius: 20px;margin-top: 20px;">Tính tổng</button>
+    </div>
+   
+
+
+
+    
+    <div class="container" style="padding:30px 10px;  background-color: burlywood ; width: 300px; padding-bottom: 20px;">
+        <h2 style="background-color: burlywood; color: rebeccapurple; display: inline;">Ex3: Tính Giai Thừa</h2>
+        <h4 style="background-color:white ; color: rebeccapurple ; text-align: center;font-size: 25px; text-align: center;">Chương trình tính Giai Thừa</h4>
+        <input type="text" name="" id="volume" placeholder="Nhập số cần tính" style="width:230px; margin-left: 25px;">
+        <div style="background-color: white ; color: rebeccapurple; display: inline-block; margin-left: 25px; text-align: center; margin-top: 20px;" id="divtinh"></div>
+        <button onclick="ex3()" style="margin-bottom: 25px; margin-left: 25px; background-color:white; color: rebeccapurple; border-radius: 20px;margin-top: 20px;">Tính</button>        
+    </div>
+
+
+    <div class="container" style="padding:30px 10px;  background-color: cadetblue ; width: 300px; padding-bottom: 20px;">
+        <h2 style="background-color: transparent; color: white; display: inline;">Ex4: Tạo Div</h2>
+        <h4 style="background-color:white ; color: rebeccapurple ; text-align: center;font-size: 25px; text-align: center;">Chương trình in DIV</h4>
+        <input type="text" placeholder="Nhập số div muốn tạo" id="div" style="width:230px; margin-left: 25px; margin-bottom: 20px;">
+        <div id="resultdiv" style="background-color: white ; color: rebeccapurple; margin-left: 25px; text-align: center; margin-top: 20px;"></div>
+        <button onclick="ex4()" style="margin-bottom: 25px; margin-left: 25px; background-color:white; color: rebeccapurple; border-radius: 20px;margin-top: 20px;">Tạo DIV</button>
+    </div>
+  
+    <div class="container" style="padding:30px 10px;  background-color: burlywood ; width: 300px; padding-bottom: 20px;">
+        <h2 style="background-color: transparent; color: white; display: inline;">Ex5: In số nguyên tố</h2>
+        <h4 style="background-color:white ; color: rebeccapurple ; text-align: center;font-size: 25px; text-align: center;">Chương trình in số Nguyên Tố</h4>
+        <input type="text" placeholder="Nhập số nguyên tố" id="numberN" style="width:230px; margin-left: 25px; margin-bottom: 20px;">
+        <div id="resultN" style="background-color: white ; color: rebeccapurple; margin-left: 25px; margin-top: 20px;"></div>
+        <button onclick="ex5()" style="margin-bottom: 25px; margin-left: 25px; background-color:white; color: rebeccapurple; border-radius: 20px;margin-top: 20px;">In số Nguyên tố</button>
+    </div>
 
 
 
